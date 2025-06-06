@@ -1,4 +1,4 @@
-# Tubulin-PSN
+# Architecture-Encoded Communication in Microtubules
 This repository contains all the necessary data to replicate the findings of the paper "Architecture-Encoded Mechanics and Communication in
 Microtubules: A Multiscale Computational Perspective".
 
