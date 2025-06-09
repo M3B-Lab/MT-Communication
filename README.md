@@ -3,24 +3,28 @@ This repository contains all the necessary data to replicate the findings of the
 Microtubules: A Multiscale Computational Perspective".
 
 The input data to replicate the simulations are organized as follows:
-- `md.mdp`: The mdp file used to run the simulations in GROMACS.
 
-- `11PF/`: Folder regarding the 11-protofilament system.
+- `01-MDSimulations`: Folder containing the mdp files, topologies and starting structures for the MD simulations  (3 replicates).*
 
-  - `Input/`: Folder containing the pdb and tpr files.
+  - `11PF/`: Folder containing the files for the 11 protofilament system.
+ 
+    - `S1/`: Files for sheet representing S1 system (far from MT seam).
 
-  - `Topologies/`: Folder containing the topology defining the system.
+    - `S2/`: Files for sheet representing S2 system (MT seam).
+   
+    - `S3/`: Files for sheet representing S3 system (MT seam).
 
-- `13PF/`: Folder regarding the 13-protofilament system.
+  - `16PF/`: Folder containing the files for the 16 protofilament system.
 
-  - `Input/`: Folder containing the pdb and tpr files.
+- `02-ENM/`: Folder containing the starting files and templates to reconstruct the MT rings.
 
-  - `Topologies/`: Folder containing the topology defining the system.
+  - `RingTemplate/`
 
-- `16PF/`: Folder regarding the 16-protofilament system.
+    - `11PF/`: Folder containing the files for the 11 PF system.
+   
+    - `13PF/`: Folder containing the files for the 13 PF system.
+   
+    - `16PF/`: Folder containing the files for the 16 PF system.
 
-  - `Input/`: Folder containing the pdb and tpr files.
 
-  - `Topologies/`: Folder containing the topology defining the system.
-
-- `Utils/`: Folder containing executables and scripts used to carry out the analyses
+* NOTE: For the simulation files related to the 13 PF system, please refer to the repository available at https://github.com/M3B-Lab/Tubulin-PSN 
