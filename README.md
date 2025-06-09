@@ -27,4 +27,5 @@ The input data to replicate the simulations are organized as follows:
     - `16PF/`: Folder containing the files for the 16 PF system.
 
 
-* NOTE: For the simulation files related to the 13 PF system, please refer to the repository available at https://github.com/M3B-Lab/Tubulin-PSN 
+
+\*NOTE: For the simulation files related to the 13 PF system, please refer to the repository available at https://github.com/M3B-Lab/Tubulin-PSN 
